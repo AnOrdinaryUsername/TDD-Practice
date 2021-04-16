@@ -1,4 +1,4 @@
-const capitalize = require('./capitalize');
+const capitalize = require('./capitalize').default;
 
 describe('capitalize', () => {
     it("should throw an error if the first argument isn't a string", () => {

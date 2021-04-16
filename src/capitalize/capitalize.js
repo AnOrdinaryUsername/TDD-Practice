@@ -6,4 +6,4 @@ const capitalize = (str) => {
     return str[0].toLocaleUpperCase() + str.slice(1);
 };
 
-module.exports = capitalize;
+export default capitalize;
