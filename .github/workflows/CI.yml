@@ -30,4 +30,4 @@ jobs:
             ${{ runner.os }}-node-
       - run: npm ci
       - name: Run Jest tests
-        run: npm run lint
+        run: npm run test
