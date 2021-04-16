@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "plugins": ["jest"],
+  "extends": ["eslint:recommended", "prettier", "plugin:jest/recommended"],
+  "env": {
+    "browser": true,
+    "amd": true,
+    "node": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "tdd-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnOrdinaryUsername/TDD-Practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnOrdinaryUsername/TDD-Practice/issues"
+  },
+  "homepage": "https://github.com/AnOrdinaryUsername/TDD-Practice#readme",
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-jest": "^24.3.5",
+    "prettier": "^2.2.1"
+  }
+}
