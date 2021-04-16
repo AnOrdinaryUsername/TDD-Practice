@@ -12,11 +12,10 @@ const arrayAnalysis = (arr) => {
     };
 
     const getAverage = () => {
-        let average = 0;
-        arr.forEach((e) => (average += e));
+        const total = arr.reduce((prev, current) => prev + current, 0);
 
         return {
-            average: average / arr.length,
+            average: total / arr.length,
         };
     };
 

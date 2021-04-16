@@ -4,10 +4,10 @@ const reverseString = (str) => {
     }
 
     let newStr = '';
-    let index = str.length - 1;
-    while (index >= 0) {
+    let index = str.length;
+
+    while (index--) {
         newStr += str[index];
-        index--;
     }
 
     return newStr;
